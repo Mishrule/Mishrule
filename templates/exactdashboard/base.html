@@ -31,7 +31,7 @@
       <div class="container-fluid">
 
         <!-- Brand -->
-        <a class="navbar-brand waves-effect" href="#">
+        <a class="navbar-brand waves-effect" href="{% url 'dashboard'%}">
           <strong class="blue-text">ONLINE EXEAT SYSTEM</strong>
         </a> 
 
@@ -47,22 +47,22 @@
           <!-- Left -->
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link waves-effect" href="#">DASHBOARD
+              <a class="nav-link waves-effect" href="{% url 'dashboard'%}">DASHBOARD
                 <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link waves-effect" href="#" >STUDENTS</a>
+              <a class="nav-link waves-effect" href="{% url 'student'%}" >STUDENTS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link waves-effect" href="#"
+              <a class="nav-link waves-effect" href="{% url 'parent_info'%}"
                 >PARENT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link waves-effect" href="#" >STAFF</a>
+              <a class="nav-link waves-effect" href="{% url 'staff_registration'%}" >STAFF</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link waves-effect" href="#" >EXEAT</a>
+              <a class="nav-link waves-effect" href="{% url 'assign_exeat'%}" >EXEAT</a>
             </li>
             <li class="nav-item">
               <a class="nav-link waves-effect" href="#" >USERS</a>
