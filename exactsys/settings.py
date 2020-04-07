@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'exact',
     'parents',
     'staff',
+    'student',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

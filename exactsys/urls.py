@@ -16,10 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('exactdashboard.urls')),
     path('staff/', include('staff.urls')),
     path('parent/', include('parents.urls')),
-    path('exeat/', include('exact.urls'))
+    path('exeat/', include('exact.urls')),
+    path('student/', include('student.urls'))
 ]
